@@ -8,10 +8,9 @@ end
 
 
 def not_safe?(speed)
-	speed<40 || speed>60 ? true:false
-if true
-  return "safe"
-else false
-  return "unsafe"
+if speed<40 || speed>60 ? true:false
+  return true
+else
+  return false
 end
 end
