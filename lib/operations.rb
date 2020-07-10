@@ -14,6 +14,3 @@ if true
 else false
   return "unsafe"
 end
-end
-
-unsafe?
